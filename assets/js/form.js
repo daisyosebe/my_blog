@@ -41,6 +41,8 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     document.getElementById('user').value = '';
     document.getElementById('title').value = '';
     document.getElementById('content').value = '';
+
+    window.location.href='blog.html'
 });
 
 

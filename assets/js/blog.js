@@ -52,6 +52,4 @@ $(document).ready(displaySavedData);
 // WHEN I view localStorage,
 // THEN I am presented with a JSON array of blog post objects, each including the post author's username, title of the post, and post's content.
 
-//(Developers portfolio in footer)
-// WHEN I view the footer,
-// THEN I am presented with a link to the developer's portfolio.
+
