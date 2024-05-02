@@ -1,62 +1,10 @@
 
 body{
-    background-color: #ffe4f3;
-    
-}
-img{
-    width: 100%; /* Set the width of the image */
-    height: 100%; /* Set the height of the image */
-    border-radius: 50%; /* Make the border radius 50% to create a circle */
-    object-fit: cover;
-}
-/* Style for the fieldset */
-.container_darkmode
-{
-    width: 49.9%;
-    border-bottom: 2px solid black;
-   
-}
-.container_1 {
-    width: 49.9%; /* Set the width of the fieldset to 50% of its containing element */
-    float: left; /* Float the fieldset to the left */
-    padding: 90px; /* Add some padding for better appearance */
-    border-top: 2px solid black; /* Add border on top */
-    border-right: 2px solid black;
-    box-sizing: border-box;
-}
-.container_2{ 
-    width: 49.9%; /* Set the width of the fieldset to 50% of its containing element */
-    float: right; /* Float the fieldset to the left */
-    padding: 20px; /* Add some padding for better appearance */
-    border-top: 2px solid black; /* Add border on top */
-    border-left: 2px solid black;
-    box-sizing: border-box;  
-}
-form {
-    display: flex; /* Use flexbox */
-    flex-direction: column; /* Arrange items vertically */
-    
+    background-color: #d6f9dd;    
 }
 
-#form_title {
 
-    text-align: center; 
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-}
-ul {
-    list-style-type: none; /* Remove default list styles */
-    padding: 15px; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-    float:right;
-  }
-button{
-    background-color:black;
-    color: white;
-    
-}
+
 .dark-mode {
     background-color: #333;
     color: #fff;
@@ -65,4 +13,8 @@ button{
   .light-mode {
     background-color: #fff;
     color: #333;
+  }
+  button{
+    background-color:black;
+    color: white;
   }

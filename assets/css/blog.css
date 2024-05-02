@@ -1,33 +1,45 @@
 
 body{
-  background-color: #E6EFE9;
-  font-family: "Dekko", cursive;
-  font-weight: 300;
-  font-style: normal;
-  min-height: 100vh;
-  padding-bottom: 60px;
-  margin: 3%;
-  min-height: 100vh
+  min-height: 100vh; 
+  padding: 20px;
 }
+
+#title{
+  text-align: center;
+}
+
+.back{
+   /* Optional styles for button */
+  
+   border: none;
+   border-radius: 2px;
+   margin: 10px; /* Optional margin */
+   position: absolute;
+   top: 10px;
+   right: 10px;
+ 
+   
+    
+}
+   
+
+
+.container {
+  margin-bottom: 20px; 
+  padding: 20px;
+  border-radius: 5px; 
+}
+
 footer{
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #eb79ba;
-  color: pink;
+  background-color: #c5d6d8;
+  color: rgb(179, 11, 39);
   text-align: center;
  
 }
 
 
-.dark-mode {
-    background-color: #333;
-    color: #fff;
-  }
-  
-  .light-mode {
-    background-color: #fff;
-    color: #333;
-  }
 
