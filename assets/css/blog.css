@@ -1,0 +1,33 @@
+
+body{
+  background-color: #E6EFE9;
+  font-family: "Dekko", cursive;
+  font-weight: 300;
+  font-style: normal;
+  min-height: 100vh;
+  padding-bottom: 60px;
+  margin: 3%;
+  min-height: 100vh
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #eb79ba;
+  color: pink;
+  text-align: center;
+ 
+}
+
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .light-mode {
+    background-color: #fff;
+    color: #333;
+  }
+

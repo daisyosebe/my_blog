@@ -9,7 +9,7 @@
 // Function to handle form submission
 // Function to save data to localStorage
 function saveData(data) {
-    let formData = JSON.parse(localStorage.getItem('formData')) || [];
+    let formData = JSON.parse(localStorage.getItem('formData')) || {};
     // Generate a unique key for each form submission
     const key = Date.now().toString(); 
     formData[key] = data;
@@ -49,6 +49,11 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     
     window.location.href= "blog.html"
 });
+
+document.getElementById("blogButton").addEventListener("click", function() {
+    // Redirect to a new page
+    window.location.href = "blog.html";
+  });
 
 
 
