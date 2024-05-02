@@ -32,8 +32,6 @@ function displaySavedData() {
     $('body').append(divContainerElement);
     
     // BACKBUTTON FUNCTION { back to form page index.html}
-    // WHEN I click the "Back" button,
-    // THEN I am redirected back to the landing page where I can input more blog entries.
     const backButton = document.getElementById('back');
     
     // Add event listener to the back button
