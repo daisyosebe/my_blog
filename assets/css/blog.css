@@ -8,22 +8,15 @@ body{
   text-align: center;
 }
 
-.back{
-   /* Optional styles for button */
-  
+ .back{
    border: none;
    border-radius: 2px;
-   margin: 10px; /* Optional margin */
+   margin: 10px;  
    position: absolute;
    top: 10px;
-   right: 10px;
- 
+   right: 10px;  
+} 
    
-    
-}
-   
-
-
 .container {
   margin-bottom: 20px; 
   padding: 20px;
