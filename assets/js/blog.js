@@ -6,6 +6,13 @@
 // WHEN I click the "Back" button,
 // THEN I am redirected back to the landing page where I can input more blog entries.
 // Get a reference to the back button
+//THEN I am presented with a header, with a light mode/dark mode toggle, and a "Back" button.
+
+
+// BACKBUTTON FUNCTION { back to form page index.html}
+// WHEN I click the "Back" button,
+// THEN I am redirected back to the landing page where I can input more blog entries.
+// Get a reference to the back button
 const backButton = document.getElementById('back');
 
 // Add event listener to the back button

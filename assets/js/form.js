@@ -3,8 +3,13 @@
 
 // Function to handle form submission
 // Function to save data to localStorage
+// WHEN I load the app,
+// FORM with labels and inputs for username(form: input undername), blog title(form:input blog title), and blog content(form: paragraph container).
+
+// Function to handle form submission
+// Function to save data to localStorage
 function saveData(data) {
-    let formData = JSON.parse(localStorage.getItem('formData')) || {};
+    let formData = JSON.parse(localStorage.getItem('formData')) || [];
     // Generate a unique key for each form submission
     const key = Date.now().toString(); 
     formData[key] = data;
@@ -25,7 +30,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
         // Display a message to prompt the user to complete the form
         alert('Please complete all fields in the form.');
         return; // Exit the function if any field is empty
-    }
+    };
     
     // Create an object to store the form data
     const formData = {
@@ -41,9 +46,11 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     document.getElementById('user').value = '';
     document.getElementById('title').value = '';
     document.getElementById('content').value = '';
-
-    window.location.href='blog.html'
+    
+    window.location.href= "blog.html"
 });
+
+
 
 
 
