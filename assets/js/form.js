@@ -1,12 +1,4 @@
-// WHEN I load the app,
-// FORM with labels and inputs for username(form: input undername), blog title(form:input blog title), and blog content(form: paragraph container).
 
-// Function to handle form submission
-// Function to save data to localStorage
-// WHEN I load the app,
-// FORM with labels and inputs for username(form: input undername), blog title(form:input blog title), and blog content(form: paragraph container).
-
-// Function to handle form submission
 // Function to save data to localStorage
 function saveData(data) {
     let formData = JSON.parse(localStorage.getItem('formData')) || {};
@@ -55,21 +47,5 @@ document.getElementById("blogButton").addEventListener("click", function() {
     window.location.href = "blog.html";
   });
 
-
-
-
-
-// WHEN I enter try to submit a form without a username, title, or content,
-// THEN I am presented with a message that prompts me to complete the form. (if any box is blank reprompt(verify content))
-
-
-
-
-// WHEN I submit the form: (submit button)
-// THEN blog post data is stored to localStorage:(function once button is clicked store info in localstorage)
-
-
-// WHEN the form submits,
-// THEN I am redirected to the posts page. (store and redirect to blog page)
 
 

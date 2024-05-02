@@ -10,9 +10,9 @@ function displaySavedData() {
         const rowDivElement = $('<div class="row text-left border">');
         const firstRowDivElement = $('<div class="row">');
         const titleDivElement = $(`<div class="col-4 mb-3" style="font-size: 20px; font-weight:bold">Blog: ${item.title}</div>`);
-        const contentDivElement = $(`<div class="col-4 mb-3"> ${item.content}</div>`);
+        const contentDivElement = $(`<div class="col-4 mb-3" > ${item.content}</div>`);
         const secondRowDivElement = $('<div class="row">');
-        const usernameDivElement = $(`<div class="col-8 mb-3" style="font-style:italic; ">by: ${item.username}</div>`);
+        const usernameDivElement = $(`<div class="col-8 mb-3" style="font-style:italic; font-weight:bold ">Author: ${item.username}</div>`);
   
         
         firstRowDivElement.append(titleDivElement);
