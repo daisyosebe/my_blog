@@ -1,4 +1,4 @@
-                                                                MY BLOG
+MY BLOG
 
 When you open that page you are presented with a "My blog" title and two buttons. One is to go to your blog page and the other is a toggle button for light/dark mode.
 
