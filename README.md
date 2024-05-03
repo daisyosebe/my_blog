@@ -1,8 +1,8 @@
-MY BLOG
+MY BLOG:
 
-When you open that page you are presented with a "My blog" title and two buttons. One is to go to your blog page and the other is a toggle button for light/dark mode.
+When you open the page you are presented with a "My blog" title and two buttons. One is to go to your blog page and the other is a toggle button for light/dark mode.
 
-the page includes a form for username, blog title, and blog content input. 
+The page includes a form for username, blog title, and blog content input. 
 
 When the form is submitted the blog post data is stored to localStorage.
 
